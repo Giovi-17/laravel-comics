@@ -1,0 +1,46 @@
+header{
+
+    height: 100px;
+    width: 100%;
+
+    .additionalSites{
+
+        height: 20px;
+        width: 100%;
+        background-color: $primary_color;
+
+    }
+
+    .navBar{
+
+        height: 80px;
+        width: 100%;
+        background-color: $secondary_color;
+
+        ul{
+
+            height: 100%;
+            display: flex;
+            justify-content: center;
+
+            li{
+
+                height: 100%;
+                margin: 0 10px;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+
+                &.selected{
+
+                    color: $primary_color;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

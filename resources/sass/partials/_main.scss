@@ -1,0 +1,61 @@
+main{
+    
+    color: $secondary_color;
+    text-transform: uppercase;
+
+    .currentSeries{
+
+        background-color: #1c1c1c;
+        padding: 40px 40px 20px 40px;
+
+        .mainCurrentSeriesContainer{
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .card{
+
+                width: calc( ( 100% / 6 ) - 20px );
+                margin: 10px;
+
+                .serieImg{
+    
+                    
+    
+                }
+
+                .serieTitle{
+
+                    
+
+                }
+
+            }
+    
+        }
+
+    }
+
+    .main-extra-link{
+
+        background-color: $primary_color;
+        padding: 30px 0;
+
+        .main-extra-container{
+
+            display: flex;
+            justify-content: center;
+
+            .main-extra-link-single-container{
+
+                margin: 0 20px;
+
+            }
+
+        }
+
+
+    }
+
+}

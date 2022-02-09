@@ -1,0 +1,47 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+
+    list-style-type: none;
+
+}
+
+img{
+
+    width: 100%;
+
+}
+
+.btn{
+
+    padding: 10px 25px;
+    font-weight: bold;
+    display: inline-block;
+
+    &-primary-color{
+
+        background-color: $primary_color;
+
+    }
+
+    &-transparent{
+
+        border: 2px solid $primary_color;
+        color: $secondary_color;
+
+    }
+
+}
+
+.container-space{
+
+    width: 70%;
+    margin: auto;
+
+}
