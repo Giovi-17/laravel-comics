@@ -2,6 +2,12 @@ footer{
 
     width: 100%;
 
+    .footer-extra-link{
+
+        background-image: url('../images/footer-bg.jpg');
+
+    }
+
     .footer-social{
 
         width: 100%;
@@ -19,11 +25,34 @@ footer{
             .footer-social-link{
 
                 display: flex;
+
+                ul{
+
+                    display: flex;
+                    justify-content: center;
+                    
+                    .footer-followUs{
     
-                .footer-followUs{
-    
-                    color: $primary_color;
-    
+                        color: $primary_color;
+                        margin-right: 15px;
+        
+                    }
+
+                    li{
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 2px;
+
+                        img{
+
+                            width: 70%;
+
+                        }
+
+                    }
+
                 }
     
             }

@@ -13,12 +13,13 @@ main{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            
 
             .card{
 
                 width: calc( ( 100% / 6 ) - 20px );
-                margin: 10px;
-
+                margin: 30px 10px;
+                
                 .serieImg{
     
                     
@@ -50,6 +51,17 @@ main{
             .main-extra-link-single-container{
 
                 margin: 0 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .main-extra-link-img{
+
+                    min-width: 40px;
+                    max-width: 50px;
+                    margin: 0 10px;
+
+                }
 
             }
 

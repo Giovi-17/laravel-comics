@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="footer-extra-link"></div>
+    <div class="footer-extra-link jumbotron"></div>
 
     <div class="footer-social">
 
@@ -14,11 +14,11 @@
 
                     <li class="footer-followUs">Follow US</li>
 
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><img src="{{ asset("images/footer-facebook.png") }}" alt=""></li>
+                    <li><img src="{{ asset("images/footer-twitter.png") }}" alt=""></li>
+                    <li><img src="{{ asset("images/footer-youtube.png") }}" alt=""></li>
+                    <li><img src="{{ asset("images/footer-pinterest.png") }}" alt=""></li>
+                    <li><img src="{{ asset("images/footer-periscope.png") }}" alt=""></li>
 
                 </ul>
 

@@ -6,8 +6,6 @@ Homepage
 
 @section('main_section')
 
-    <div class="jumbotron"></div>
-
     <div class="currentSeries">
 
         <div class="container-space mainCurrentSeriesContainer">
@@ -38,7 +36,7 @@ Homepage
 
             <div class="main-extra-link-single-container">
 
-                <div class="main-extra-link-img"><img src="" alt=""></div>
+                <div class="main-extra-link-img"><img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt=""></div>
 
                 <div class="main-extra-link-text">Digital Comics</div>
 
@@ -46,7 +44,7 @@ Homepage
 
             <div class="main-extra-link-single-container">
 
-                <div class="main-extra-link-img"><img src="" alt=""></div>
+                <div class="main-extra-link-img"><img src="{{ asset('images/buy-comics-merchandise.png') }}" alt=""></div>
 
                 <div class="main-extra-link-text">DC Merchandise</div>
 
@@ -54,7 +52,7 @@ Homepage
 
             <div class="main-extra-link-single-container">
 
-                <div class="main-extra-link-img"><img src="" alt=""></div>
+                <div class="main-extra-link-img"><img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt=""></div>
 
                 <div class="main-extra-link-text">Subscription</div>
 
@@ -62,7 +60,7 @@ Homepage
 
             <div class="main-extra-link-single-container">
 
-                <div class="main-extra-link-img"><img src="" alt=""></div>
+                <div class="main-extra-link-img"><img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt=""></div>
 
                 <div class="main-extra-link-text">Comic Shop Locator</div>
 
@@ -70,7 +68,7 @@ Homepage
 
             <div class="main-extra-link-single-container">
 
-                <div class="main-extra-link-img"><img src="" alt=""></div>
+                <div class="main-extra-link-img"><img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt=""></div>
 
                 <div class="main-extra-link-text">DC Power Visa</div>
 
