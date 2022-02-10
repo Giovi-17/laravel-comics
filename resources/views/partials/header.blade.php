@@ -7,7 +7,7 @@
         <ul>
 
             <li>Characters</li>
-            <li class="selected">Comics</li>
+            <li class="selected"><a href="{{ route('homepage') }}">Comics</a></li>
             <li>Movies</li>
             <li>TV</li>
             <li>Games</li>

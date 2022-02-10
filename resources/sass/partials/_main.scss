@@ -67,6 +67,164 @@ main{
 
         }
 
+    }
+
+    //Product Page
+    .background-blue{
+
+        background-color: $primary_color;
+        height: 50px;
+        position: relative;
+
+        .comic-image{
+
+            width: 150px;
+            position: absolute;
+            bottom: 13px;
+            left: 17%;
+            border: 1px solid white;
+
+        }
+
+    }
+
+    .product-container{
+
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .product-adv-container{
+
+        display: flex;
+        justify-content: center;
+        padding: 50px 0px;
+
+        .product-container{
+
+            width: 70%;
+            padding: 0 25px;
+
+            .title{
+
+                color: #003f5e;
+                font-size: 20px;
+
+            }
+
+            .price{
+
+                background-color: #55ba59;
+                margin: 20px 0;
+                padding: 15px 20px;
+                border-bottom: 1px solid gray;
+
+                .ms_color{
+
+                    text-transform: none;
+
+                    opacity: 50%;
+
+                }
+
+            }
+
+            .description{
+
+                color: gray;
+                text-transform: none;
+
+            }
+
+        }
+
+        .adv-container{
+
+            width: 30%;
+
+        }
+
+    }
+
+    .extra-product-container{
+
+        background-color: #f6f6f6;
+        text-transform: none;
+        border: 1px solid lightgray;
+
+        .product-container{
+
+            display: flex;
+
+            .category{
+
+                width: 50%;
+    
+                margin-right: 50px;
+                margin-bottom: 100px;
+    
+                .title-container{
+    
+                    padding: 20px 0;
+        
+                    border-bottom: 1px solid lightgray;
+        
+                    .title{
+        
+                        color: #003f5e;
+            
+                    }
+        
+                }
+    
+                .single-mini-title-container{
+    
+                    border-bottom: 1px solid lightgray;
+    
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+    
+                    .mini-title-container{
+    
+                        width: 40%;
+    
+                        .mini-title{
+    
+                            color: #003f5e;
+        
+                        }
+    
+                    }
+    
+                    .description-container{
+    
+                        .description{
+    
+                            color: $primary_color;
+        
+                        }
+
+                        .description_m{
+
+                            text-transform: uppercase;
+
+                        }
+
+                        .description_b{
+
+                            color: black;
+
+                        }
+    
+                    }
+    
+                }
+    
+            }
+
+        }
 
     }
 

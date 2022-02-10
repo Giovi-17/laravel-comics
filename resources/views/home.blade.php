@@ -16,9 +16,9 @@ Homepage
 
                 <div class="card">
 
-                    <div class="serieImg"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></div>
+                    <div class="serieImg"><a href="{{ route('product', ['id' => $comic['id']]) }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}"></a></div>
         
-                    <div class="serieTitle">{{ $comic['series'] }}</div>
+                    <div class="serieTitle"><a href="{{ route('product', ['id' => $comic['id']]) }}">{{ $comic['series'] }}</a></div>
         
                 </div>
 
